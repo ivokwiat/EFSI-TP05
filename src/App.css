@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos para la clase flag */
+/* Estilos para la clase flag y su contenedor */
+.flag {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 500px; /* Tamaño fijo para todas las banderas */
+  height: 300px; /* Tamaño fijo para todas las banderas */
+  margin: auto; /* Centrar dentro de su contenedor */
+  border-radius:20px;
+}
+
+/* Estilos para el contenedor que contiene la bandera */
+.flag-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100%; /* Asegura que el contenedor ocupe toda la altura disponible */
+  margin-top: 10px; /* Ajusta este valor según sea necesario */
+
+}
+
+/* Estilos para el contenedor padre */
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Ajustar altura al 100% del viewport */
+  margin-top: -400px; /* Ajusta este valor según sea necesario */
+
+}
+
+.fondo {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG_d_mSdue5iUrsyZHdA00uY29j3ueLNeS_Q&usqp=CAU');
+  background-repeat:no-repeat ;
+  background-size: contain;
+}
+
+
+.puntaje {
+
+  margin-top: 200px;
+}
+
+.puntajeCenter{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.form{
+
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+
+}
+
+.bordes{
+
+  border-radius:20px;
+
+}
