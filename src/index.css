@@ -12,3 +12,161 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flag {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 500px; /* Tamaño fijo para todas las banderas */
+  height: 300px; /* Tamaño fijo para todas las banderas */
+  margin: auto; /* Centrar dentro de su contenedor */
+  margin-top: 90px; /* Ajusta este valor según sea necesario */
+
+}
+
+/* Estilos para el contenedor que contiene la bandera */
+.flag-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100%; /* Asegura que el contenedor ocupe toda la altura disponible */
+
+}
+
+
+/* Estilos para el contenedor padre */
+.container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Ajustar altura al 100% del viewport */
+  margin-top: -400px; /* Ajusta este valor según sea necesario */
+
+}
+
+.containerGeneral{
+
+  margin-top: 100px;
+}
+
+.fondo {
+  background-image: url('https://i.pinimg.com/originals/d0/0e/f2/d00ef2e54de196caaf4ee3eb56be010c.jpg');
+  background-repeat:no-repeat ;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+.puntajeCenter{
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
+
+.form{
+
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+
+}
+
+.bordes{
+
+  border-radius:20px;
+
+}
+
+.formEstilo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.u-full-width {
+  width: 100%;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button-primary {
+  background-color: #242699;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.puntaje {
+  position: fixed;
+  top: 4%;
+  right: 4%;
+  transform: translate(-50%, 50%);
+  background-color: #242699;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius:20px;
+
+}
